@@ -1,0 +1,19 @@
+// Transition composer
+
+@mixin transition($transition-delay, $transition-type, $transition-property: all) {
+  transition: $transition-property $transition-delay $transition-type;
+}
+// Main animation
+
+@mixin animation($animation-delay, $animation-type) {
+  animation: $animation-delay + 0.6s $animation-type forwards fadein;
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
