@@ -11,7 +11,7 @@
     "scss/",
     "./index.html"
   ],
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "main": "js/app.js",
   "private": true,
   "repository": "marlospomin/bokeh",
