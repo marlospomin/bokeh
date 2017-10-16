@@ -1,6 +1,10 @@
-@import "variables";
-@import "mixins";
-@import "resets";
-@import "global";
-@import "styles";
-@import "queries";
+// Core files
+@import "core/variables";
+@import "core/resets";
+@import "core/global";
+@import "core/queries";
+
+// Components
+
+// Utilities
+@import "utils/mixins";
