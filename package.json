@@ -1,12 +1,25 @@
 {
   "name": "bokeh",
-  "version": "0.0.1",
   "description": "A premium front-end photography template.",
-  "main": "js/app.js",
+  "version": "1.0.0",
   "author": "Marlos Pomin",
+  "files": [
+    "css/",
+    "fonts/",
+    "img/",
+    "js/",
+    "scss/",
+    "./index.html"
+  ],
   "license": "Apache 2.0",
+  "main": "js/app.js",
   "private": true,
-  "dependencies": {
+  "repository": "marlospomin/bokeh",
+  "scripts": {
+    "gulp": "gulp",
+    "sass": "gulp sass"
+  },
+  "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
