@@ -1,6 +1,6 @@
 # Bokeh
 
-A premium photography front-end template.
+> A premium photography front-end template.
 
 ## About
 
