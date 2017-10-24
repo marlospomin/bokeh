@@ -1,5 +1,5 @@
 body {
-  font-family: inherit; }
+  font-family: "Raleway", serif; }
 
 .btn,
 .h1,
@@ -16,4 +16,20 @@ h5,
 h6,
 header,
 strong {
-  font-family: inherit; }
+  font-family: "Merriweather", serif; }
+
+.navbar .navbar-brand {
+  font-family: "Vidaloka", serif;
+  font-size: 2.25rem;
+  letter-spacing: .025rem; }
+
+.navbar .navbar-nav {
+  font-size: 1.085rem;
+  letter-spacing: .025rem; }
+
+.jumbotron {
+  height: 100vh;
+  padding-top: 20rem; }
+  .jumbotron .display-4 {
+    font-family: "Vidaloka", serif;
+    letter-spacing: .025rem; }
