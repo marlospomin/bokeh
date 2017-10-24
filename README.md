@@ -17,6 +17,10 @@ $ yarn install
 
 After that, use ```gulp``` to compile and watch subsequent file saves.
 
+## Todo List
+
+* [ ] Preload stylesheet assets.
+
 ## Contributing
 
 If you feel like we missed something just let us know! Make a pull request or open an issue using a discussion/request label and we will go from there.
