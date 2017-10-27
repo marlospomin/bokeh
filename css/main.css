@@ -29,7 +29,14 @@ strong {
 
 .jumbotron {
   height: 100vh;
-  padding-top: 20rem; }
+  padding-top: 47vh; }
   .jumbotron .display-4 {
     font-family: "Vidaloka", serif;
     letter-spacing: .025rem; }
+
+.portfolio .grid {
+  column-count: 3;
+  column-width: 22rem;
+  column-gap: 1rem; }
+  .portfolio .grid .grid-item {
+    display: inline-block; }
