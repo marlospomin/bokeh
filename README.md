@@ -20,6 +20,7 @@ After that, use ```gulp``` to compile and watch subsequent file saves.
 ## Todo List
 
 * [ ] Preload stylesheet assets.
+* [ ] Space elements properly inspecting for errors.
 
 ## Contributing
 
