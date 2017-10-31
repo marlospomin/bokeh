@@ -21,6 +21,7 @@ After that, use ```gulp``` to compile and watch subsequent file saves.
 
 * [ ] Preload stylesheet assets.
 * [ ] Space elements properly inspecting for errors.
+* [ ] Test new fonts.
 
 ## Contributing
 
