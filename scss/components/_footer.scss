@@ -1,0 +1,34 @@
+.footer {
+  background-color: #222;
+  color: white;
+
+  .logo {
+    font-family: $font-alternate;
+    font-size: $logo-size;
+    letter-spacing: .025rem;
+  }
+
+  .social {
+
+    .fa {
+      font-size: 1.5rem;
+      color: #ddd;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+
+  .divider {
+    background-color: #3f3f3f;
+  }
+
+  .copyright-statement, .back-to-top {
+    font-size: 0.925rem;
+  }
+
+  a {
+    // color: #777;
+  }
+}
