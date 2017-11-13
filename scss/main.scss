@@ -4,6 +4,9 @@
 @import "core/global";
 @import "core/queries";
 
+// Utilities
+@import "utils/mixins";
+
 // Components
 @import "components/navbar";
 @import "components/jumbotron";
@@ -13,6 +16,3 @@
 @import "components/blog";
 @import "components/contact";
 @import "components/footer";
-
-// Utilities
-@import "utils/mixins";
