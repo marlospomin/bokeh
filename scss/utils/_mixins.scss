@@ -1,4 +1,4 @@
-// Transition composer for animations
-@mixin transition($transition-delay, $transition-type, $transition-property: all) {
-  transition: $transition-property $transition-delay $transition-type;
+// Transition composer for simple animations
+@mixin transition($transition-duration, $transition-type, $transition-property: all, $transition-delay: 0s) {
+  transition: $transition-delay $transition-duration $transition-property $transition-type;
 }
