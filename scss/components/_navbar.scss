@@ -4,11 +4,22 @@
     font-family: $font-alternate;
     font-size: $logo-size + 1rem;
     letter-spacing: .025rem;
+
+    @include transition(.1s, .3s, all, ease);
   }
 
   .navbar-nav {
     font-size: 1.085rem;
     letter-spacing: .025rem;
+  }
+
+  .navbar-toggler {
+    border-radius: 5%;
+    outline: none;
+
+    .fa-bars {
+      font-size: 1.45rem;
+    }
   }
 }
 
@@ -17,9 +28,4 @@
   .navbar-brand {
     font-size: $logo-size;
   }
-}
-
-.navbar,
-.shrink {
-  // transition
 }
