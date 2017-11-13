@@ -2,7 +2,7 @@
 
   .navbar-brand {
     font-family: $font-alternate;
-    font-size: $logo-size;
+    font-size: $logo-size + 1rem;
     letter-spacing: .025rem;
   }
 
@@ -10,4 +10,16 @@
     font-size: 1.085rem;
     letter-spacing: .025rem;
   }
+}
+
+.shrink {
+
+  .navbar-brand {
+    font-size: $logo-size;
+  }
+}
+
+.navbar,
+.shrink {
+  // transition
 }
