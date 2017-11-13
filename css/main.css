@@ -20,12 +20,15 @@ strong {
 
 .navbar .navbar-brand {
   font-family: "Vidaloka", serif;
-  font-size: 2.25rem;
+  font-size: 3.25rem;
   letter-spacing: .025rem; }
 
 .navbar .navbar-nav {
   font-size: 1.085rem;
   letter-spacing: .025rem; }
+
+.shrink .navbar-brand {
+  font-size: 2.25rem; }
 
 .jumbotron {
   height: 100vh;
