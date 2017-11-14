@@ -58,6 +58,9 @@ strong {
     font-family: "Vidaloka", serif;
     font-size: 2.25rem;
     letter-spacing: .025rem; }
+  .footer .quick-links .nav-link,
+  .footer .other-pages .nav-link {
+    padding-top: 0.4rem; }
   .footer .social .fa {
     font-size: 1.5rem;
     color: #ddd; }
