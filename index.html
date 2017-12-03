@@ -26,32 +26,32 @@
         <nav class="collapse navbar-collapse" id="collapseTarget">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a data-smoothie class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a data-smoothie class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a data-smoothie class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a data-smoothie class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a data-smoothie class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="home">
       <div class="container text-center">
         <h1 class="display-4">Bokeh</h1>
         <p class="lead">A premium photography front-end template.</p>
         <!-- call to action button -->
       </div>
     </div>
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="text-center mt-5">About Me</h1>
       <p class="text-center">You don't take a photograph, you make it.</p>
       <div class="container mt-5">
@@ -77,7 +77,7 @@
         </div>
       </div>
     </section>
-    <main class="portfolio">
+    <main class="portfolio" id="portfolio">
       <!-- main -->
       <h1 class="text-center mt-4 mt-md-5">Meet My Latest Work</h1>
       <p class="text-center">A picture is a secret about a secret, the more it tells you the less you know.</p>
@@ -142,7 +142,7 @@
         </div>
       </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
       <h1 class="text-center mt-5">Last Photography News</h1>
       <p class="text-center text-muted">Follow my latest articles about photography and retouching.</p>
       <div class="container mt-5">
@@ -181,7 +181,7 @@
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <h1 class="text-center mt-5">Contact Me</h1>
       <p class="text-center text-muted">Feel free to contact me at anytime using the form below.</p>
       <div class="container mt-5">
@@ -283,14 +283,18 @@
             <p class="copyright-statement">Copyright &copy; 2017 - Bokeh. All Rights Reserved.</p>
           </div>
           <div class="col-md-2 text-left text-md-right">
-            <a class="back-to-top" href="#">Back To Top <span class="fa fa-caret-up ml-1" aria-hidden="true"></span></a>
+            <a data-smoothie class="back-to-top" href="#home">Back To Top <span class="fa fa-caret-up ml-1" aria-hidden="true"></span></a>
           </div>
         </div>
       </div>
     </footer>
+    <!-- jquery -->
     <script src="//code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
+    <!-- async-bootstrap -->
     <script async src="js/bootstrap.min.js"></script>
+    <!-- smooth-scroll -->
+    <script src="js/smoothie.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

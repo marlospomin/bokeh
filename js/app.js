@@ -16,3 +16,6 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+// Call smoothie for smooth scroll
+smoothie();
