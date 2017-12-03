@@ -19,3 +19,6 @@ window.addEventListener('scroll', () => {
 
 // Call smoothie for smooth scroll
 smoothie();
+
+// Call turtle for lazy loading
+turtle();
