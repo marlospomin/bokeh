@@ -22,3 +22,6 @@ smoothie();
 
 // Call turtle for lazy loading
 turtle();
+
+// Call mango to zoom your images
+mango();
