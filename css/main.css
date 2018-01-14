@@ -39,7 +39,7 @@ strong {
 
 .jumbotron {
   height: 100vh;
-  padding-top: 47vh; }
+  align-items: center; }
   .jumbotron .display-4 {
     font-family: "Vidaloka", serif;
     letter-spacing: .025rem; }
